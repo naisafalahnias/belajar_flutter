@@ -1,4 +1,9 @@
+import 'package:belajar_flutter/row_coloum_widget/latihan_dua.dart';
+import 'package:belajar_flutter/row_coloum_widget/latihan_row.dart';
 import 'package:belajar_flutter/main_layout.dart';
+import 'package:belajar_flutter/row_coloum_widget/latihan_satu.dart';
+import 'package:belajar_flutter/row_coloum_widget/row_dua.dart';
+import 'package:belajar_flutter/row_coloum_widget/row_satu.dart';
 import 'package:belajar_flutter/stack_widget/stack_dua.dart';
 import 'package:belajar_flutter/stack_widget/stack_satu.dart';
 import 'package:belajar_flutter/stack_widget/stack_tiga.dart';
@@ -15,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StackThree()
+      home: LatihanDua()
     );
   }
 }
